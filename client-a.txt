@@ -7,15 +7,15 @@ Display game rules
 Set variable ‘correct.answer’ to randomly selected number between 1-10
 Set variable ‘i’ to 0
 WHILE ‘i’ is less than 3
-Prompt user to input guess
-IF input = correct.answer
-Display winning screen
-IF input != correct.answer
-Increment ‘i’ by 1
-Display try again screen AND prompt user to input additional guess
+- Prompt user to input guess
+- - IF input = correct.answer
+- - - Display winning screen
+- - IF input != correct.answer
+- - - Increment ‘i’ by 1
+- - - Display try again screen AND prompt user to input additional guess
 END WHILE
 IF ‘i’ equals 3
-	Display game over screen
+- Display game over screen
 END
 
 
