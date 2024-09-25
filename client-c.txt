@@ -2,3 +2,15 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+Set variable ‘i’ to 0
+WHILE package scanned
+IF i =! 50
+Increment i by 2
+Print label = i
+IF i = 50
+Reset i = 0
+Increment i by 2
+Print label = i
+END WHILE
+END
